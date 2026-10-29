@@ -1,0 +1,8 @@
+{
+  "budgetPerAttempt": 1,
+  "sessionCap": 4,
+  "creditFloor": 5.5,
+  "pollMinutes": 1,
+  "escalation": { "model": "openrouter/deepseek/deepseek-v4-pro", "thinking": "high" }
+}
+

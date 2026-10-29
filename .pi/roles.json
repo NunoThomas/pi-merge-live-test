@@ -1,0 +1,9 @@
+{
+  "roles": {
+    "planner": { "model": "openrouter/deepseek/deepseek-v4.1-flash", "thinking": "high" },
+    "worker": { "model": "openrouter/deepseek/deepseek-v4.1-flash", "thinking": "medium" },
+    "reviewer": { "model": "openrouter/deepseek/deepseek-v4.1-flash", "thinking": "medium" },
+    "scout": { "model": "openrouter/deepseek/deepseek-v4-flash-0731" },
+    "ui-tester": { "model": "openrouter/qwen/qwen3.6-35b-a3b" }
+  }
+}
