@@ -11,4 +11,3 @@ test("square", () => {
   assert.equal(square(0), 0);
   assert.equal(square(-3), 9);
 });
-
