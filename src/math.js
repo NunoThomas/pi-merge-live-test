@@ -17,3 +17,8 @@ export function cube(x) {
 export function negate(x) {
   return -x;
 }
+
+/** Triple a number. */
+export function tripled(x) {
+  return 3 * x;
+}
