@@ -8,6 +8,11 @@ export function square(x) {
   return x * x;
 }
 
+/** Cube a number. */
+export function cube(x) {
+  return x * x * x;
+}
+
 /** Negate a number. */
 export function negate(x) {
   return -x;
