@@ -21,4 +21,8 @@ jobs:
         env:
           BASE_REF: ${{ github.base_ref }}
         run: node scripts/version-check.js
-
+      - name: Banned words
+        env:
+          BANNED_WORD: ${{ vars.BANNED_WORD }}
+        run: |
+          if grep -rn "$BANNED_WORD" src; then echo "src/ contains the word '$BANNED_WORD', which the project does not allow. Use another name."; exit 1; fi
