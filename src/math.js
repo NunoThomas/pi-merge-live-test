@@ -7,3 +7,8 @@ export function add(a, b) {
 export function square(x) {
   return x * x;
 }
+
+/** Negate a number. */
+export function negate(x) {
+  return -x;
+}
